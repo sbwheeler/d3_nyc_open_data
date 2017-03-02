@@ -1,0 +1,27 @@
+{
+  "name": "d3_first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon js/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbwheeler/d3_nyc_open_data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbwheeler/d3_nyc_open_data/issues"
+  },
+  "homepage": "https://github.com/sbwheeler/d3_nyc_open_data#readme",
+  "dependencies": {
+    "connect": "^3.6.0",
+    "d3": "^4.7.1",
+    "jquery": "^3.1.1",
+    "nodemon": "^1.11.0",
+    "serve-static": "^1.12.0"
+  }
+}
