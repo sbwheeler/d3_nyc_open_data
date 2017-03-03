@@ -4,7 +4,7 @@ $(document).ready(() => {
     type: 'GET',
     data: {
       $limit: 50000,
-      $$app_token: 'temp',
+      $$app_token: token,
     },
   }).done((data) => {
     const newData = d3.csvParse(data);
